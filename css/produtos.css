@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../imagem/img_home2.jpg);
+    background-size: cover;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem hsl(283, 38%, 80%);
+    width: 100%;
+    background: rgb(89,6,96);
+    transition: all 0.5s;
+    position: fixed;
+}
+
+.navigation .logo {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-menu a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.nav-menu :hover {
+    color: rgb(143, 19, 143);
+}
+
+/*..........................Produtos......................*/
+
+.home-img img {
+    width: 500px;
+    height: 405px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.home-text {
+    max-width: 100rem;
+
+}
+
+.home-text .text-h4 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.home-text .text-h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.modal {
+    width: 100%;
+    height: 250px;
+    display: grid;
+}
+
+.titulo_modal {
+    background-color: transparent;
+}
+
+.titulo_modal h2 {
+    padding: 10px;
+    float: left;
+}
+
+.titulo_modal a {
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+#mostrar {
+    font-size: 50px;
+    text-align: center;
+}
+
+.modal_carrinho p {
+    text-align: center;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal_carrinho {
+    background-color: plum;
+    margin-left: 350px;
+    width: 300px;
+    padding: 0rem 2rem 1rem;
+    border-radius: 50px;
+}
+
+#botao1 {
+    margin-left: 18px;
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#botao2 {
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.car btn {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 40px;
+
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    display: inline-block;
+    margin-top: 10%;
+    padding: 5px;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 3px 3px 0px 3px purple;
+    margin-left: 20px;
+}
+
+.col img {
+    border-radius: 30px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.col button {
+    cursor: pointer;
+    padding: 05px 25px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgb(219, 73, 219);
+    color: white;
+}
+
+.col p {
+    font-weight: 700;
+    color: plum;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+

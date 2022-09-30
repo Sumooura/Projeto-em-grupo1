@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    
+  background-image: url(../imagem/img_home2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*...............Menu.........Menu..........*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow:  0 0.1rem 0.5rem hsl(283, 100%, 84%);
+    width: 100%;
+    background-color: rgb(89, 6, 96);
+    transition: all 0.5s;
+    position: fixed;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-menu a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.nav-menu :hover {
+    color: rgb(143, 19, 143);
+}
+
+/*....logo.....*/
+
+#img{
+    width: 40px;
+    height: 40px;
+}
+
+/*............Rodapé.......Rodapé.........*/
+ 
+.menu{
+    
+    margin: 10.5px auto;
+    transition: all 0.3s;
+}
+
+.rodape {
+    top: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 0 0.1rem 0.5rem hsl(283, 100%, 82%);
+    width: 100%;
+    background-color:transparent;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.rodape ul {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.rodape ul li a {
+    color: rgb(255, 252, 247);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+#email:hover {
+    color: purple;
+}
+
+/*...................Seja bem vindo..................*/
+
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 5cm;
+
+}
+
+h1 {
+    color: rgb(89, 6, 96);  
+    font-size: 3rem;
+}
+
+h4 {
+    color: rgb(3, 96, 21);
+    
+    font-size: 1.5rem;
+}
